@@ -1,0 +1,197 @@
+/* .debug{
+    border: 2px solid green;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vw;
+    background-image: url(../images/cups.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: absolute;
+}
+
+.flexParent{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.flexChild1{
+    flex: 1;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    opacity: 0;
+}
+.flexChild2{
+    position: relative;
+    flex: 3;
+    height: 200px;  
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    opacity: 0.85;
+
+}
+.flexChild2Title{
+    position: relative;
+    height: 200px;  
+    width: 100%;
+    color: white;
+    background-color: #6F5913;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    opacity: 0.85;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.flexChild2Text{
+    position: relative;
+    height: 200px;  
+    width: 100%;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    opacity: 0.85;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.flexChild3{
+    flex: 1;
+    height: 100px;  
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    opacity: 0;
+}
+
+.flexChild4{
+    position: relative;
+    flex: 3;
+    height: 200px;  
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    opacity: 0.85;
+
+}
+.flexChild4Title{
+    position: relative;
+    height: 200px;  
+    width: 100%;
+    color: white;
+    background-color: #6F5913;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    opacity: 0.85;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.flexChild4Text{
+    position: relative;
+    height: 200px;  
+    width: 100%;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    opacity: 0.85;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.flexChild5{
+    flex: 1;
+    height: 100px;  
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    opacity: 0;
+}
+.flexChild5{
+    flex: 1;
+    height: 100px;  
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    opacity: 0;
+}
+.flexParent2{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.flexChild6{
+    flex: 1;
+    height: 100px;  
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    opacity: 0;
+}
+.flexChild7{
+    position: relative;
+    flex: 7;
+    height: 200px;  
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    opacity: 0.85;
+
+}
+.flexChild7Title{
+    position: relative;
+    height: 200px;  
+    width: 100%;
+    color: white;
+    background-color: #6F5913;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    opacity: 0.85;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.flexChild7Text{
+    position: relative;
+    height: 200px;  
+    width: 100%;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    opacity: 0.85;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.flexChild8{
+    flex: 1;
+    height: 100px;  
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    opacity: 0;
+}

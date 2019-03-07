@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+ul {
+  letter-spacing:  3px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  opacity: 0.85;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #6F5913;
+}
+.whiteSpace1 {
+  display: block;
+  position: relative;
+  width: 100vw;
+  height: 5vh;
+  opacity: 0;
+}
