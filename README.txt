@@ -1,1 +1,5 @@
-This project was a 2 day sprint solo project from scratch, and very front-end (which is the thing i like most)!
+# Mr. Coffeebean
+
+This project was a 2 day sprint solo project from scratch, and I've focussed on styling.
+
+Worktime: 2 days.
